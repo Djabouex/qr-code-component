@@ -1,0 +1,45 @@
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 12 - thanks! 🙂 ##
+###############################################
+*.xd
+
+# Avoid macOS system files
+.DS_Store
+
+# Ignore Prettier configuration files
+.prettierignore
+.prettierrc
+.prettierrc.json
+.prettierrc.yml
+.prettierrc.yaml
+.prettierrc.js
+
+# Ignore editor and IDE configuration files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore node_modules and package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore build output or temporary files
+dist/
+build/
+*.log
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
